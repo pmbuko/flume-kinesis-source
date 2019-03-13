@@ -6,7 +6,7 @@ Fixes added, tested and works.
 ## To Do 
 Copy prebuilt JAR found in *target* folder to *$FLUME_HOME/lib*
 
-## Rerefence material
+## Usage examples
 Refer to the configuration samples in *flume-kinesis/conf* on how to configure Amazon Kinesis Sink and Source
 
 ## Building the JAR (if rebuild needed)
