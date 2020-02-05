@@ -49,7 +49,7 @@ public class KinesisSource extends AbstractSource implements Configurable, Polla
 	// Initial position in the stream when the application starts up for the first time.
 	// Position can be one of LATEST (most recent data) or TRIM_HORIZON (oldest available data)
 	private InitialPositionInStream DEFAULT_INITIAL_POSITION = InitialPositionInStream.TRIM_HORIZON;
-	private static final String DEFAULT_KINESIS_ENDPOINT = "https://kinesis.us-east-1.amazonaws.com";
+	private static final String DEFAULT_KINESIS_ENDPOINT = "https://kinesis.us-west-2.amazonaws.com";
 	private String applicationName;
 	private String streamName;
 	private String kinesisEndpoint = DEFAULT_KINESIS_ENDPOINT;
