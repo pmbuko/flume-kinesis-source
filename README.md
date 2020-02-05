@@ -12,5 +12,5 @@ Refer to the configuration samples in *flume-kinesis/conf* on how to configure A
 
 ## Building the JAR (if rebuild needed)
 1. git clone https://github.com/pmbuko/flume-kinesis-source
-2. cd flume-kinesis
+2. cd flume-kinesis-source
 3. mvn clean compile assembly:single
